@@ -1,2 +1,4 @@
+function UpdateButton(){ 
 var greeting = 'Hello World';
-console.log(greeting);
+document.getElementById('btn').innerHTML = greeting;
+}
