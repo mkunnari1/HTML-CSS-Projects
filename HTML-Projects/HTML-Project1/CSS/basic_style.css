@@ -26,6 +26,7 @@ h1{
     margin: 5px;
     border-radius: 25%;
     cursor: pointer;
+    transition: transform .5s ease-in-out;
 }
 
 /* Select all squares paragraphs in the array */
@@ -56,6 +57,67 @@ h1{
 }
 
 .squares:nth-child(4) {
-    background: #bef341
+    background: #bef341;
+}
+
+/* Hover, translate and transform Effects */
+
+.container .squares:nth-child(-n+4) :hover {
+    background-image: url("../images/icons/smileyface1.png");
+    width: 100px;
+    height: 100px;
+    border-radius: 25%;
+    animation-name: bounceOutDown;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(2.5,.2,.3,2);
+
+}
+
+.squares:nth-child(1) :hover{
+    background: #13b4ff;
+     animatecss-bounceOutDown;
+    }
+
+.squares:nth-child(2) :hover{
+    background: #13b4ff;
+    height: 100px;
+    width: 100px;
+
+    @-keyframes race {
+        0%, 100% {
+            transform: translateY(0px);
+            background-image: url("../images/icons/smileyface1.png");
+        }
+        50% {
+            transform: translateY(330px) ;
+        }
+    }
+}
+
+.squares:nth-child(3) :hover{
+    background: #41f37c;
+    @keyframes race {
+        0%, 100% {
+            transform: translateY(0px);
+            background-image: url("../images/icons/smileyface1.png");
+        }
+        50% {
+            transform: translateY(330px) ;
+        }
+    }
+}
+
+.squares:nth-child(4) :hover{
+    background: #eba3e5e5;
+    @keyframes race {
+        0%, 100% {
+            transform: translateY(0px);
+            background-image: url("../images/icons/smileyface1.png");
+        }
+        50% {
+            transform: translateY(330px) ;
+        }
+    }
 }
 
