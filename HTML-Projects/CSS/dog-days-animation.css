@@ -1,0 +1,39 @@
+/*==============================
+    NAVIGATION SECTION
+================================*/
+
+.nav-menu {
+    color: rgb(158, 87, 6);
+    font: bold 12px/18px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    display: inline;
+    margin: 0% auto;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.nav-menu li {
+    color: #000;
+    background-color: rgba(255,255,255,1);
+    display: inline-block;
+    margin: 0% auto;
+    position: relative;
+    padding: 15px 4%;
+    border: 1px solid #9d9fa2;
+    box-shadow: 2px 2px 20px 0 rgba(0,0,0,.5);
+    border-radius: 6px;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: .4s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+}
+
+.nav-menu li:hover {
+    color: rgb(158, 87, 6);
+    background-color: rgb(214, 214, 214);
+}
+
