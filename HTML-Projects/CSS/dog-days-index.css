@@ -377,6 +377,14 @@ HOME STYLE SECTION
 
 }
 
+#mksubmit {
+    margin: 0px 3%;
+    padding: 0px 0px 10px 20px;
+    width: 25%;
+    font-size: 20px;
+}
+
+
 .submit input[type="submit"]:hover {
     color: #000;
     background-color: aquamarine;
