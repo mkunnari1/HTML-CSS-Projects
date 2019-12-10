@@ -1,2 +1,2 @@
 # The-Tech-Academy-Basic-HTML-CSS-Projects
-Repository for small HTML5 and CSS3 projects
+Repository for HTML5 and CSS3 projects for The Tech Academy
